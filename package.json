@@ -41,7 +41,7 @@
     "sanity": "^3.10.3",
     "sanity-plugin-asset-source-unsplash": "^1.0.6",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^6.1.13",
+    "styled-components": "5.2",
     "swr": "^2.1.2",
     "typescript": "^5.0.4"
   },
