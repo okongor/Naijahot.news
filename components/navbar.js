@@ -105,7 +105,7 @@ export default function Navbar(props) {
                   ))}
                 </div>
                 <div className="flex w-full items-center justify-between md:w-auto">
-                  <Link href="/" className="w-56 dark:hidden">
+                  <Link href="/" className="w-44 lg:w-56 dark:hidden">
                     {props.logo ? (
                       <Image
                         {...urlForImage(props.logo)}
