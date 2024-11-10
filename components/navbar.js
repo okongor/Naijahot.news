@@ -13,7 +13,7 @@ export default function Navbar(props) {
   const leftmenu = [
     {
       label: "Home",
-      href: "#",
+      href: "/",
       // children: [
       //   { title: "Home Default", path: "/home/lifestyle" },
       //   { title: "Home Alternate", path: "/home/alt" },
