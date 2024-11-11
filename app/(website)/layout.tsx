@@ -28,6 +28,7 @@ export async function sharedMetaData(params) {
         "Naijahot News - Get latest news in Nigeria and Africa",
       template: "%s | Naijahot News"
     },
+   
     description:
       settings?.description ||
       "Get tthe latest breaking newws in Abuja, Lagos, Port harcourt, Accra, Egypt, Johannesburg",
@@ -67,6 +68,7 @@ export default async function Layout({ children, params }) {
       lang="en"
       suppressHydrationWarning
       className={cx(inter.variable, lora.variable)}>
+ 
       <body className="text-gray-800 antialiased dark:bg-black dark:text-gray-400">
         <Providers>
           <GetNavbar {...settings} />

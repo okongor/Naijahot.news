@@ -18,7 +18,7 @@ export default function Layout(props) {
       <Head>
         <link rel="preconnect" href="https://cdn.sanity.io/" />
         <link rel="dns-prefetch" href="https://cdn.sanity.io//" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+     
 
       </Head>
       <NextSeo
