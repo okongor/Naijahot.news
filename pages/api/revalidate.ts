@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+
 
 import type { NextApiRequest, NextApiResponse } from "next";
 import { parseBody } from "next-sanity/webhook";
