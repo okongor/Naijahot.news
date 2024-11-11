@@ -19,6 +19,7 @@ export default function Layout(props) {
       <Head>
         <link rel="preconnect" href="https://cdn.sanity.io/" />
         <link rel="dns-prefetch" href="https://cdn.sanity.io//" />
+        <meta name="monetag" content="5744de1d413ea02e12b6d37d86466b90"></meta>
      
 
       </Head>
