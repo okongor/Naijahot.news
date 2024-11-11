@@ -65,6 +65,7 @@ export async function generateMetadata({ params }) {
 export default async function Layout({ children, params }) {
   const settings = await getSettings();
   return (
+   
     <html
       lang="en"
       suppressHydrationWarning
@@ -76,6 +77,7 @@ export default async function Layout({ children, params }) {
           <div>{children}</div>
           <Footer {...settings} />
         </Providers>
+        <Analytics/>
       </body>
     </html>
   );

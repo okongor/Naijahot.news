@@ -5,6 +5,7 @@ import { urlForImage } from "@/lib/sanity/image";
 import Navbar from "@/components/navbar";
 import NavbarAlt from "@/components/navbaralt";
 import { cx } from "@/utils/all";
+import { Analytics } from "@vercel/analytics/react"
 // import defaultOG from "../public/img/og-default.jpg";
 
 import Footer from "@/components/footer";
