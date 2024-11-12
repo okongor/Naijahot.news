@@ -2,11 +2,17 @@ import Container from "@/components/container";
 import PostList from "@/components/postlist";
 import Featured from "@/components/featured";
 import Link from "next/link";
+import Head from "next/head";
 export default function HomeLifeStyle({ posts }) {
   const featuredPost = posts.filter(item => item.featured) || null;
 
   return (
     <>
+    <Head>
+ 
+ <meta name="google-adsense-account" content="ca-pub-7094656317998541" />
+
+    </Head>
       {featuredPost && featuredPost.length && (
         <Featured post={featuredPost[0]} pathPrefix="lifestyle" />
       )}

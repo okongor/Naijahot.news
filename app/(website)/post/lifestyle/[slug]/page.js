@@ -1,5 +1,5 @@
 import PostPage from "./lifestyle";
-
+import Head from "next/head";
 import {
   getAllPostsSlugs,
   getPostBySlug,
@@ -16,6 +16,9 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function PostDefault({ params }) {
+  <Head>
+  <meta name="google-adsense-account" content="ca-pub-7094656317998541"></meta>
+ </Head>
   const post = await getPostBySlug(params.slug);
   const categories = await getTopCategories();
   return <PostPage post={post} categories={categories} />;
