@@ -20,7 +20,7 @@ export default function Layout(props) {
         <link rel="preconnect" href="https://cdn.sanity.io/" />
         <link rel="dns-prefetch" href="https://cdn.sanity.io//" />
 
-        <meta name="google-adsense-account" content="ca-pub-7094656317998541"></meta>
+        <meta name="google-adsense-account" content="ca-pub-7094656317998541"/>
 
       </Head>
       <NextSeo
