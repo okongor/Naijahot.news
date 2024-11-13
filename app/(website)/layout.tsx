@@ -72,6 +72,7 @@ export default async function Layout({ children, params }) {
       className={cx(inter.variable, lora.variable)}>
  <Head>
  <meta name="google-adsense-account" content="ca-pub-7094656317998541" />
+ 
  </Head>
       <body className="text-gray-800 antialiased dark:bg-black dark:text-gray-400">
         <Providers>
