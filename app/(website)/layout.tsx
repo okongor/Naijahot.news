@@ -70,6 +70,10 @@ export default async function Layout({ children, params }) {
       lang="en"
       suppressHydrationWarning
       className={cx(inter.variable, lora.variable)}>
+
+        <head>
+        <meta name="4a31c1f05f765d4fb24fda4a5904a040a4a0c9f9" content="4a31c1f05f765d4fb24fda4a5904a040a4a0c9f9" />
+        </head>
  
       <body className="text-gray-800 antialiased dark:bg-black dark:text-gray-400">
         <Providers>
