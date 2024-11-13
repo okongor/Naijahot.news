@@ -7,7 +7,7 @@ import Footer from "@/components/footer";
 import GetNavbar from "@/components/getnavbar";
 import { urlForImage } from "@/lib/sanity/image";
 import { Analytics } from "@vercel/analytics/react"
-
+import Script from 'next/script'
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter"
@@ -82,6 +82,7 @@ export default async function Layout({ children, params }) {
           <Footer {...settings} />
         </Providers>
         <Analytics/>
+        <Script src="/ad1money.js" />
       </body>
     </html>
   );
