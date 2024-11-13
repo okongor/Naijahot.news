@@ -83,6 +83,7 @@ export default async function Layout({ children, params }) {
         </Providers>
         <Analytics/>
         <Script src="/ad1money.js" />
+        <Script src="/second-ad(banner)" />
       </body>
     </html>
   );
