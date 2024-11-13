@@ -4,7 +4,7 @@ import { getAllPosts } from "@/lib/sanity/client";
 
 export default async function LifeStyleHomePage() {
   <Head>
- <meta name="google-adsense-account" content="ca-pub-7094656317998541"></meta>
+<meta name="4a31c1f05f765d4fb24fda4a5904a040a4a0c9f9" content="4a31c1f05f765d4fb24fda4a5904a040a4a0c9f9" />
 </Head>
   const posts = await getAllPosts();
   return <HomeLifeStyle posts={posts} />;

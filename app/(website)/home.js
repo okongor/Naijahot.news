@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Container from "@/components/container";
 import PostList from "@/components/postlist";
-import LifeStyleHomePage from "./home/lifestyle/page"
+import LifeStyleHomePage from "./home/lifestyle/page
 export default function Post({ posts }) {
   return (
     <>

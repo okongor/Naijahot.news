@@ -7,7 +7,7 @@ import Footer from "@/components/footer";
 import GetNavbar from "@/components/getnavbar";
 import { urlForImage } from "@/lib/sanity/image";
 import { Analytics } from "@vercel/analytics/react"
-import Head from "next/head";
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter"
@@ -70,10 +70,7 @@ export default async function Layout({ children, params }) {
       lang="en"
       suppressHydrationWarning
       className={cx(inter.variable, lora.variable)}>
- <Head>
- <meta name="google-adsense-account" content="ca-pub-7094656317998541" />
  
- </Head>
       <body className="text-gray-800 antialiased dark:bg-black dark:text-gray-400">
         <Providers>
           <GetNavbar {...settings} />
