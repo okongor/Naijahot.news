@@ -74,7 +74,7 @@ export default async function Layout({ children, params }) {
         <head>
        
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HB9ETJ3BVV" />
-<script src="/analytics.js" />
+
         <meta name="4a31c1f05f765d4fb24fda4a5904a040a4a0c9f9" content="4a31c1f05f765d4fb24fda4a5904a040a4a0c9f9" />
         </head>
  
