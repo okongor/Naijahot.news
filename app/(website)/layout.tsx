@@ -76,6 +76,7 @@ export default async function Layout({ children, params }) {
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HB9ETJ3BVV"/>
 <Script src="/analytics.js" />
         <meta name="4a31c1f05f765d4fb24fda4a5904a040a4a0c9f9" content="4a31c1f05f765d4fb24fda4a5904a040a4a0c9f9" />
+        <meta name="monetag" content="5744de1d413ea02e12b6d37d86466b90">
         </head>
  
       <body className="text-gray-800 antialiased dark:bg-black dark:text-gray-400">
